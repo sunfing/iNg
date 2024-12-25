@@ -3,17 +3,24 @@
 # format: text
 # payload:
 #
-DOMAIN,pe.cn2gias.uk        # 守候高级服 US 主线路
-DOMAIN,prehk.cn2gias.uk     # 守候高级服 HK 备用线路
-DOMAIN,prekr.cn2gias.uk     # 守候高级服 KR 备用线路
-DOMAIN,emby.cn2gias.uk      # 守候机场服 US 主线路
-DOMAIN,ehk1.cn2gias.uk      # 守候机场服 HK 备用线路
+DOMAIN,pe.cn2gias.uk    # 守候高级服 US 主线路
+DOMAIN,prehk.cn2gias.uk # 守候高级服 HK 备用线路
+DOMAIN,prekr.cn2gias.uk # 守候高级服 KR 备用线路
+DOMAIN,emby.cn2gias.uk  # 守候机场服 US 主线路
+DOMAIN,ehk1.cn2gias.uk  # 守候机场服 HK 备用线路
 #
-DOMAIN,aca.misakaf.org      # ACA 机场服主线路
-DOMAIN,stream1.misakaf.org  # MisakaF 公费服播放流
-DOMAIN,stream2.misakaf.org  # MisakaF 公费服播放流
-DOMAIN,stream3.misakaf.org  # MisakaF 公费服播放流
-DOMAIN,stream4.misakaf.org  # MisakaF 公费服播放流
-DOMAIN,stream5.misakaf.org  # MisakaF 公费服播放流（战未来）
+DOMAIN,aca.misakaf.org     # ACA 机场服主线路
+DOMAIN,stream1.misakaf.org # MisakaF 公费服播放流
+DOMAIN,stream2.misakaf.org # MisakaF 公费服播放流
+DOMAIN,stream3.misakaf.org # MisakaF 公费服播放流
+DOMAIN,stream4.misakaf.org # MisakaF 公费服播放流
+DOMAIN,stream5.misakaf.org # MisakaF 公费服播放流（战未来）
+#
+DOMAIN,cavps.eu.org                  # CF
+IP-CIDR,50.114.55.29/32,no-resolve   # SG
+DOMAIN,wmxz.567996.xyz               # KR
+IP-CIDR,38.150.0.75/32,no-resolve    # US
+DOMAIN,emby.pppp.us.kg               # JP
+IP-CIDR,141.11.218.151/32,no-resolve # HK
 #
 DOMAIN-SUFFIX,tanhuatv.site # 探花 TV 主线路
