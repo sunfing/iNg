@@ -21,6 +21,7 @@ IP-CIDR,50.114.55.29/32,no-resolve   # 鹅服 SG
 DOMAIN,wmxz.567996.xyz               # 鹅服 KR
 IP-CIDR,38.150.0.75/32,no-resolve    # 鹅服 US
 DOMAIN,emby.pppp.us.kg               # 鹅服 JP
-IP-CIDR,141.11.218.151/32,no-resolve # 鹅服 HK
+IP-CIDR,141.11.175.105/32,no-resolve # 鹅服 HK
+IP-CIDR,154.12.53.34/32,no-resolve   # 鹅服 9929
 #
 DOMAIN-SUFFIX,tanhuatv.site # 探花 TV 主线路
