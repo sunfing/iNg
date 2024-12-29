@@ -22,16 +22,16 @@
   proxy-providers:
     𝑵𝒐𝒅𝒆𝒔:  # 远程代理集名称 ###### 👇👇👇 URL 处填写订阅链接 👇👇👇 ######
       <<: *anchor_proxy_providers
-      url: '订阅链接'
+      url: "订阅链接"
       path: ./proxy_providers/Nodes.yaml  # 可选文件路径，不可重复，不同的远程代理集请自行设置不同的路径，亦或是不使用“path”时会使用 url 的 MD5 作为此文件的文件名
       # override:                           # 覆写节点内容，前/后缀二选一，有多机场混合使用的需求时强烈建议添加前/后缀，避免因节点名重复而无法使用的情况，除此之外还推荐使用 Sub Store(https://t.me/i_chl/29) 订阅管理工具可对节点进行更多个性化修改
         # additional-prefix: "节点前缀"
         # additional-suffix: "节点后缀"
     
-    # 机场名字 A: {<<: *anchor_proxy_providers, url: '订阅链接', override: {additional-prefix: "节点前缀"}} # 无文件路径 前缀 模版
-    # 机场名字 B: {<<: *anchor_proxy_providers, url: '订阅链接', override: {additional-suffix: "节点后缀"}} # 无文件路径 后缀 模版
-    # 机场名字 C: {<<: *anchor_proxy_providers, url: '订阅链接', path: ./proxy_providers/Example.yaml, override: {additional-prefix: "节点前缀"}} # 有文件路径 前缀 模版
-    # 机场名字 D: {<<: *anchor_proxy_providers, url: '订阅链接', path: ./proxy_providers/Example.yaml, override: {additional-suffix: "节点后缀"}} # 有文件路径 后缀 模版
+    # 机场名字 A: {<<: *anchor_proxy_providers, url: "订阅链接", override: {additional-prefix: "节点前缀"}} # 无文件路径 前缀 模版
+    # 机场名字 B: {<<: *anchor_proxy_providers, url: "订阅链接", override: {additional-suffix: "节点后缀"}} # 无文件路径 后缀 模版
+    # 机场名字 C: {<<: *anchor_proxy_providers, url: "订阅链接", path: ./proxy_providers/Example.yaml, override: {additional-prefix: "节点前缀"}} # 有文件路径 前缀 模版
+    # 机场名字 D: {<<: *anchor_proxy_providers, url: "订阅链接", path: ./proxy_providers/Example.yaml, override: {additional-suffix: "节点后缀"}} # 有文件路径 后缀 模版
 
   # 本地代理集
   # 该项可用于远程资源首次下载需要挂梯时（例如：订阅链接域名被墙。一般不需要），可自行添加一个本地代理节点利用该节点下载更新订阅和规则，日常使用可删除或注释本项；亦或是在此添加自建的本地代理节点
@@ -58,8 +58,9 @@
 
   external-controller: 0.0.0.0:9090 # 外部控制
   external-ui: ui
-  external-ui-url: https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip
-  secret: metacubexd
+  external-ui-url: https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip  # metacubexd
+  # external-ui-url: https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip # zashboard
+  secret: dashboard
 
   geox-url:               # 自定义 GEO 数据库
     geoip: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat
@@ -112,9 +113,9 @@
       # ipcidr:
         # - 240.0.0.0/4
       # domain:
-        # - '+.google.com'
-        # - '+.facebook.com'
-        # - '+.youtube.com'
+        # - "+.google.com"
+        # - "+.facebook.com"
+        # - "+.youtube.com"
 
   sniffer:
     enable: true
