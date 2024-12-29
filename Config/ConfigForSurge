@@ -1,7 +1,7 @@
 # 订阅频道：https://t.me/i_chl
 # 仓库地址：https://github.com/sunfing/iNg/blob/main/Config/ConfigForSurge
 # 本配置文件携带大量的注释，尽可能解释全部代码内容，其余不懂地方建议看官方文档 https://manual.nssurge.com/book/understanding-surge/cn/
-# 初次使用建议详细阅读注释内容并修改必要的内容，如：在“节点集合节点组”填写自己的订阅链接
+# 初次使用建议详细阅读注释内容并修改必要的内容，如：在“节点集合节点组”填写订阅链接
 
 [General]
 # > 日志等级
