@@ -2,7 +2,7 @@
 # 仓库地址：https://github.com/sunfing/iNg/blob/main/Config/ConfigForClash
 # 本配置文件携带大量的注释，尽可能解释全部代码内容，其余不懂地方建议看官方文档 https://wiki.metacubex.one/
 # 初次使用建议详细阅读注释内容并修改必要的内容，如：在“远程代理集”填写订阅链接
-# ⚠️⚠️⚠️注意 YAML 文本对缩进非常敏感，若改完后不知道格式是否有误，请务必查看 https://t.me/i_chl/111，并用“YAML 验证器”二次检验格式是否有误
+# ⚠️⚠️⚠️注意 YAML 文本对缩进非常敏感，若改完后不知道格式是否有误，请务必查看 https://t.me/i_chl/111，并用 YAML 验证器二次检验格式是否有误
 # 远程代理集锚点
   anchor_proxy_providers: &anchor_proxy_providers
     type: http
