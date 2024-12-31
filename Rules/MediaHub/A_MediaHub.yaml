@@ -16,6 +16,8 @@ payload:
   - DOMAIN,stream4.misakaf.org # MisakaF 公费服播放流
   - DOMAIN,stream5.misakaf.org # MisakaF 公费服播放流（战未来）
 #
+  - DOMAIN,us.nanflix.net # Nanflix
+#
   - DOMAIN,cavps.eu.org                  # 鹅服 CF
   - IP-CIDR,50.114.55.29/32,no-resolve   # 鹅服 SG
   - DOMAIN,wmxz.567996.xyz               # 鹅服 KR
