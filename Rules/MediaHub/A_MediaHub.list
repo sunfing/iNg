@@ -31,4 +31,6 @@ DOMAIN,lite.saturday.video # SaturDay
 IP-CIDR,192.99.35.111/32,no-resolve # 起点站 CA 直连
 DOMAIN,tdck.fun                     # 起点站 Cloudflare
 #
+IP-CIDR,185.163.116.145/32,no-resolve # 9clubs CN 直连
+#
 DOMAIN-SUFFIX,tanhuatv.site # 探花 TV 主线路
