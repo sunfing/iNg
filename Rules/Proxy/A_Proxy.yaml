@@ -25,8 +25,9 @@ payload:
   - DOMAIN-SUFFIX,cleanmasters.store
   - DOMAIN-SUFFIX,nmnm.fun
   - DOMAIN-SUFFIX,nodeseek.com
-  # - DOMAIN-SUFFIX,nmteam.xyz
-  - DOMAIN-SUFFIX,xyz
+  - DOMAIN-SUFFIX,linux.do
+  - DOMAIN-SUFFIX,nmteam.xyz
+  - DOMAIN-SUFFIX,599665.xyz
   - DOMAIN-KEYWORD,sms-activate
   - IP-CIDR,154.23.185.44/32,no-resolve # SDKDNS
   - IP-CIDR,8.219.119.196/32,no-resolve # Claw-SG
