@@ -24,6 +24,9 @@ DOMAIN,emby.pppp.us.kg               # 鹅服 JP
 IP-CIDR,141.11.175.105/32,no-resolve # 鹅服 HK
 IP-CIDR,154.12.53.34/32,no-resolve   # 鹅服 9929
 #
+IP-CIDR,47.243.4.140/32,no-resolve # 海豚
+DOMAIN,emby.barryluo.top           # 海豚 CF
+#
 DOMAIN,us.nanflix.net # Nanflix
 #
 DOMAIN,lite.saturday.video # SaturDay
