@@ -1,7 +1,9 @@
+
 # 订阅频道：https://t.me/i_chl
 # 仓库地址：https://github.com/sunfing/iNg/blob/main/Config/ConfigForClash
 # 本配置文件携带大量的注释，尽可能解释全部代码内容，其余不懂地方建议看官方文档 https://wiki.metacubex.one/
 # 初次使用建议详细阅读注释内容并修改必要的内容，如：在“远程代理集”填写订阅链接
+
 # ⚠️⚠️⚠️注意 YAML 文本对缩进非常敏感，若改完后不知道格式是否有误，请务必查看 https://t.me/i_chl/111，并用 YAML 验证器二次检验格式是否有误
 # 远程代理集锚点
   anchor_proxy_providers: &anchor_proxy_providers
@@ -20,18 +22,18 @@
   # 要添加更多远程代理集即机场（名字不能重复）自行复制下面的示例模板粘贴添加，注意去掉机场名字前面的“#”且务必注意缩进量
   # 四种模板任挑一种批量复制粘贴即可添加多个机场，建议小白无脑选择使用“无文件路径”的模板，注意去掉机场名字前面的“#”且务必注意缩进量
   proxy-providers:
-    𝑵𝒐𝒅𝒆𝒔:  # 远程代理集名称 ###### 👇👇👇 URL 处填写订阅链接 👇👇👇 ######
+    机场一:  # 远程代理集名称 ###### 👇👇👇 URL 处填写订阅链接 👇👇👇 ######
       <<: *anchor_proxy_providers
       url: "订阅链接"
       path: ./proxy_providers/Nodes.yaml  # 可选文件路径，不可重复，不同的远程代理集请自行设置不同的路径，亦或是不使用“path”时会使用 url 的 MD5 作为此文件的文件名
       # override:                           # 覆写节点内容，前/后缀二选一，有多机场混合使用的需求时强烈建议添加前/后缀，避免因节点名重复而无法使用的情况，除此之外还推荐使用 Sub Store(https://t.me/i_chl/29) 订阅管理工具可对节点进行更多个性化修改
-        # additional-prefix: "节点前缀"
-        # additional-suffix: "节点后缀"
-    
-    # 机场名字 A: {<<: *anchor_proxy_providers, url: "订阅链接", override: {additional-prefix: "节点前缀"}} # 无文件路径 前缀 模版
-    # 机场名字 B: {<<: *anchor_proxy_providers, url: "订阅链接", override: {additional-suffix: "节点后缀"}} # 无文件路径 后缀 模版
-    # 机场名字 C: {<<: *anchor_proxy_providers, url: "订阅链接", path: ./proxy_providers/Example.yaml, override: {additional-prefix: "节点前缀"}} # 有文件路径 前缀 模版
-    # 机场名字 D: {<<: *anchor_proxy_providers, url: "订阅链接", path: ./proxy_providers/Example.yaml, override: {additional-suffix: "节点后缀"}} # 有文件路径 后缀 模版
+        # additional-prefix: "机场一"
+        # additional-suffix: "机场一"
+
+    # 机场二: {<<: *anchor_proxy_providers, url: "订阅链接", override: {additional-prefix: "机场二"}} # 无文件路径 前缀 模版
+    # 机场三: {<<: *anchor_proxy_providers, url: "订阅链接", override: {additional-suffix: "机场三"}} # 无文件路径 后缀 模版
+    # 机场四: {<<: *anchor_proxy_providers, url: "订阅链接", path: ./proxy_providers/Example.yaml, override: {additional-prefix: "机场四"}} # 有文件路径 前缀 模版
+    # 机场五: {<<: *anchor_proxy_providers, url: "订阅链接", path: ./proxy_providers/Example.yaml, override: {additional-suffix: "机场五"}} # 有文件路径 后缀 模版
 
   # 本地代理集
   # 该项可用于远程资源首次下载需要挂梯时（例如：订阅链接域名被墙。一般不需要），可自行添加一个本地代理节点利用该节点下载更新订阅和规则，日常使用可删除或注释本项；亦或是在此添加自建的本地代理节点
