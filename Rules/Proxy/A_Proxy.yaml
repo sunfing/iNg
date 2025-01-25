@@ -27,7 +27,7 @@ payload:
   - DOMAIN-SUFFIX,nodeseek.com
   - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,nmteam.xyz
-  # - DOMAIN-KEYWORD,665.xyz
+  # - DOMAIN-KEYWORD,665.xyz # Me
   - DOMAIN-KEYWORD,sms-activate
   - IP-CIDR,154.23.185.44/32,no-resolve # SDKDNS
   - IP-CIDR,8.219.119.196/32,no-resolve # Claw-SG
