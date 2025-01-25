@@ -3,7 +3,7 @@
 # format: text
 # payload:
 #
-DOMAIN-KEYWORD,665.xyz # Me
+# DOMAIN-KEYWORD,665.xyz # Me
 #
 DOMAIN,pe.cn2gias.uk    # 守候高级服 US 主线路
 DOMAIN,prehk.cn2gias.uk # 守候高级服 HK 备用线路
