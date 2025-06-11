@@ -85,7 +85,8 @@ udp-policy-not-supported-behaviour = REJECT
 # > 策略组
 # 大类速选策略组
 · 默认代理  = select, · 全球直连, · 全球拦截, · 省流节点, · 省流自动, · 香港手动, · 台湾手动, · 狮城手动, · 日本手动, · 美国手动, · 香港自动, · 台湾自动, · 狮城自动, · 日本自动, · 美国自动, · 家宽自选, · 常用自选, · 冷门自选, · 节点集合, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Surge1.png
-· 即时通讯  = select, · 全球直连, · 默认代理, · 省流节点, · 省流自动, · 香港手动, · 台湾手动, · 狮城手动, · 日本手动, · 美国手动, · 香港自动, · 台湾自动, · 狮城自动, · 日本自动, · 美国自动, · 家宽自选, · 常用自选, · 冷门自选, · 节点集合, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Speaker.png
+· 谷歌推送  = select, · 全球直连, · 默认代理, · 省流节点, · 省流自动, · 香港手动, · 台湾手动, · 狮城手动, · 日本手动, · 美国手动, · 香港自动, · 台湾自动, · 狮城自动, · 日本自动, · 美国自动, · 家宽自选, · 常用自选, · 冷门自选, · 节点集合, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Speaker.png
+· 即时通讯  = select, · 全球直连, · 默认代理, · 省流节点, · 省流自动, · 香港手动, · 台湾手动, · 狮城手动, · 日本手动, · 美国手动, · 香港自动, · 台湾自动, · 狮城自动, · 日本自动, · 美国自动, · 家宽自选, · 常用自选, · 冷门自选, · 节点集合, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Message.png
 · 新闻社交  = select, · 全球直连, · 默认代理, · 省流节点, · 省流自动, · 香港手动, · 台湾手动, · 狮城手动, · 日本手动, · 美国手动, · 香港自动, · 台湾自动, · 狮城自动, · 日本自动, · 美国自动, · 家宽自选, · 常用自选, · 冷门自选, · 节点集合, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/News.png
 · 语言模型  = select, · 全球直连, · 默认代理, · 省流节点, · 省流自动, · 香港手动, · 台湾手动, · 狮城手动, · 日本手动, · 美国手动, · 香港自动, · 台湾自动, · 狮城自动, · 日本自动, · 美国自动, · 家宽自选, · 常用自选, · 冷门自选, · 节点集合, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/AIGC.png
 · 流媒体集  = select, · 全球直连, · 默认代理, · 省流节点, · 省流自动, · 流媒自动, · 港流媒体, · 台流媒体, · 狮流媒体, · 日流媒体, · 美流媒体, · 香港自动, · 台湾自动, · 狮城自动, · 日本自动, · 美国自动, · 家宽自选, · 常用自选, · 冷门自选, · 节点集合, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Clapper.png
@@ -180,6 +181,7 @@ RULE-SET, https://raw.githubusercontent.com/sunfing/iNg/main/Rules/Direct/A_Dire
 #
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list, · 速度测试, update-interval=86400
 #
+RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleFCM/GoogleFCM.list, · 谷歌推送, update-interval=86400
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list, · 全球直连, update-interval=86400
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list, · 电报消息, update-interval=86400
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Discord/Discord.list, · 语音社群, update-interval=86400
@@ -210,7 +212,6 @@ RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/
     # 与 MTIM 搭配使用 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia_MITM.sgmodule
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMedia/ChinaMedia.list, · 全球直连, update-interval=86400
 #
-RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleFCM/GoogleFCM.list, · 默认代理, update-interval=86400
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tencent/Tencent.list, · 全球直连, update-interval=86400
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TeamViewer/TeamViewer.list, · 全球直连, update-interval=86400
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list, · 开源托管, update-interval=86400
