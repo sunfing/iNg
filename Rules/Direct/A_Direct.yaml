@@ -19,6 +19,7 @@ payload:
   - DOMAIN-SUFFIX,dogfight360.com
   - DOMAIN-SUFFIX,yxvm.com
   - DOMAIN-KEYWORD,stun.
+  - DOMAIN-KEYWORD,havoc
   - DOMAIN-KEYWORD,alist
   - DOMAIN-KEYWORD,pan666
   - DOMAIN-KEYWORD,turgame
