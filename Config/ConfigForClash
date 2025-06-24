@@ -369,13 +369,13 @@
       # 直连与拦截策略组
       - name: 🎯 全球直连
         type: select
-        proxies: [DIRECT, REJECT]
+        proxies: [DIRECT, REJECT, ❤ 省流节点, ❤ 省流自动, 🇭🇰 香港手动, 🇨🇳 台湾手动, 🇸🇬 狮城手动, 🇯🇵 日本手动, 🇺🇸 美国手动, 🇭🇰 香港自动, 🇨🇳 台湾自动, 🇸🇬 狮城自动, 🇯🇵 日本自动, 🇺🇸 美国自动, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
         icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Direct.png
         # hidden: true
 
       - name: 🚫 全球拦截
         type: select
-        proxies: [REJECT, DIRECT]
+        proxies: [REJECT, DIRECT, ❤ 省流节点, ❤ 省流自动, 🇭🇰 香港手动, 🇨🇳 台湾手动, 🇸🇬 狮城手动, 🇯🇵 日本手动, 🇺🇸 美国手动, 🇭🇰 香港自动, 🇨🇳 台湾自动, 🇸🇬 狮城自动, 🇯🇵 日本自动, 🇺🇸 美国自动, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
         icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Reject.png
         # hidden: true
 
