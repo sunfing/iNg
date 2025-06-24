@@ -127,8 +127,8 @@ udp-policy-not-supported-behaviour = REJECT
 # 流量兜底策略组
 · 漏网之鱼  = select, · 全球直连, · 默认代理, · 省流节点, · 省流自动, · 香港手动, · 台湾手动, · 狮城手动, · 日本手动, · 美国手动, · 香港自动, · 台湾自动, · 狮城自动, · 日本自动, · 美国自动, · 家宽自选, · 常用自选, · 冷门自选, · 节点集合, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Final.png
 # 直连与拦截策略组
-· 全球直连  = select, DIRECT, REJECT, hidden = 1, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Direct.png
-· 全球拦截  = select, REJECT, DIRECT, hidden = 1, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Reject.png
+· 全球直连  = select, DIRECT, REJECT, · 默认代理, · 省流节点, · 省流自动, · 香港手动, · 台湾手动, · 狮城手动, · 日本手动, · 美国手动, · 香港自动, · 台湾自动, · 狮城自动, · 日本自动, · 美国自动, · 家宽自选, · 常用自选, · 冷门自选, · 节点集合, hidden = 1, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Direct.png
+· 全球拦截  = select, REJECT, DIRECT, · 默认代理, · 省流节点, · 省流自动, · 香港手动, · 台湾手动, · 狮城手动, · 日本手动, · 美国手动, · 香港自动, · 台湾自动, · 狮城自动, · 日本自动, · 美国自动, · 家宽自选, · 常用自选, · 冷门自选, · 节点集合, hidden = 1, icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Reject.png
 # > 节点组
 # 自定义节点组
 · 观影节点  = select, include-other-group = · 节点集合, update-interval = 0, no-alert = 0, hidden = 0, include-all-proxies = 0, policy-regex-filter = (?i)(?=.*(emby)), icon-url = https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/CD.png # 不区分大小写匹配关键字
