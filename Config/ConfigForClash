@@ -150,7 +150,7 @@
   # 所有规则集配置
   anchor_policy_groups_all: &anchor_policy_groups_all
     type: select
-    proxies: [🎯 全球直连, 🚀 默认代理, 💽 观影节点, 💽 观影自动, ❤ 省流节点, ❤ 省流自动, 🔮 流媒自动, 🇭🇰 港流媒体, 🇨🇳 台流媒体, 🇸🇬 狮流媒体, 🇯🇵 日流媒体, 🇺🇸 美流媒体, 🇭🇰 香港手动, 🇨🇳 台湾手动, 🇸🇬 狮城手动, 🇯🇵 日本手动, 🇺🇸 美国手动, 🇭🇰 香港自动, 🇨🇳 台湾自动, 🇸🇬 狮城自动, 🇯🇵 日本自动, 🇺🇸 美国自动, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
+    proxies: [🎯 全球直连, 🚀 默认代理, 💽 观影节点, 💽 观影自动, 🎬 流媒体集, 🔮 流媒自动, ❤ 省流节点, ❤ 省流自动, 🇭🇰 港流媒体, 🇨🇳 台流媒体, 🇸🇬 狮流媒体, 🇯🇵 日流媒体, 🇺🇸 美流媒体, 🇭🇰 香港手动, 🇨🇳 台湾手动, 🇸🇬 狮城手动, 🇯🇵 日本手动, 🇺🇸 美国手动, 🇭🇰 香港自动, 🇨🇳 台湾自动, 🇸🇬 狮城自动, 🇯🇵 日本自动, 🇺🇸 美国自动, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
   # 默认规则集配置
   anchor_policy_groups_default: &anchor_policy_groups_default
     type: select
@@ -167,14 +167,10 @@
   anchor_policy_groups_aigc: &anchor_policy_groups_aigc
     type: select
     proxies: [🎯 全球直连, 🚀 默认代理, 🎨 语言模型, ❤ 省流节点, ❤ 省流自动, 🇭🇰 香港手动, 🇨🇳 台湾手动, 🇸🇬 狮城手动, 🇯🇵 日本手动, 🇺🇸 美国手动, 🇭🇰 香港自动, 🇨🇳 台湾自动, 🇸🇬 狮城自动, 🇯🇵 日本自动, 🇺🇸 美国自动, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
-  # 媒体中心规则集配置
-  anchor_policy_groups_mediahub: &anchor_policy_groups_mediahub
-    type: select
-    proxies: [🎯 全球直连, 🚀 默认代理, 💽 观影节点, 💽 观影自动, ❤ 省流节点, ❤ 省流自动, 🔮 流媒自动, 🇭🇰 港流媒体, 🇨🇳 台流媒体, 🇸🇬 狮流媒体, 🇯🇵 日流媒体, 🇺🇸 美流媒体, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
   # 流媒体集规则集配置
   anchor_policy_groups_streammedia: &anchor_policy_groups_streammedia
     type: select
-    proxies: [🎯 全球直连, 🚀 默认代理, 🎬 流媒体集, ❤ 省流节点, ❤ 省流自动, 🇭🇰 港流媒体, 🇨🇳 台流媒体, 🇸🇬 狮流媒体, 🇯🇵 日流媒体, 🇺🇸 美流媒体, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
+    proxies: [🎯 全球直连, 🚀 默认代理, 🎬 流媒体集, 🔮 流媒自动, ❤ 省流节点, ❤ 省流自动, 🇭🇰 港流媒体, 🇨🇳 台流媒体, 🇸🇬 狮流媒体, 🇯🇵 日流媒体, 🇺🇸 美流媒体, 🇭🇰 香港手动, 🇨🇳 台湾手动, 🇸🇬 狮城手动, 🇯🇵 日本手动, 🇺🇸 美国手动, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
 
 # 节点组锚点
   # 手动切换规则集配置
@@ -221,7 +217,7 @@
 
       - name: 🎬 流媒体集
         type: select
-        proxies: [🎯 全球直连, 🚀 默认代理, ❤ 省流节点, ❤ 省流自动, 🔮 流媒自动, 🇭🇰 港流媒体, 🇨🇳 台流媒体, 🇸🇬 狮流媒体, 🇯🇵 日流媒体, 🇺🇸 美流媒体, 🇭🇰 香港自动, 🇨🇳 台湾自动, 🇸🇬 狮城自动, 🇯🇵 日本自动, 🇺🇸 美国自动, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
+        proxies: [🎯 全球直连, 🚀 默认代理, ❤ 省流节点, ❤ 省流自动, 🇭🇰 港流媒体, 🇨🇳 台流媒体, 🇸🇬 狮流媒体, 🇯🇵 日流媒体, 🇺🇸 美流媒体, 🇭🇰 香港手动, 🇨🇳 台湾手动, 🇸🇬 狮城手动, 🇯🇵 日本手动, 🇺🇸 美国手动, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
         icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Clapper.png
 
       - name: 🔮 流媒自动
@@ -242,7 +238,7 @@
         type: select
         proxies: [🎯 全球直连, 🚀 默认代理, 🍟 节点集合]
         icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Speedtest.png
-
+      
       # 细分套娃策略组
       - name: 📲 电报消息
         <<: *anchor_policy_groups_message
@@ -280,13 +276,10 @@
         <<: *anchor_policy_groups_aigc
         icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Copilot.png
 
-      - name: 📀 媒体中心
-        <<: *anchor_policy_groups_mediahub
+      - name: 📀 媒体影院
+        type: select
+        proxies: [🎯 全球直连, 🚀 默认代理, 💽 观影节点, 💽 观影自动, 🎬 流媒体集, 🔮 流媒自动, ❤ 省流节点, ❤ 省流自动, 🇭🇰 港流媒体, 🇨🇳 台流媒体, 🇸🇬 狮流媒体, 🇯🇵 日流媒体, 🇺🇸 美流媒体, 🇭🇰 香港手动, 🇨🇳 台湾手动, 🇸🇬 狮城手动, 🇯🇵 日本手动, 🇺🇸 美国手动, 🏠 家宽自选, 🥵 常用自选, 🥶 冷门自选, 🍟 节点集合]
         icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Emby.png
-
-      # - name: 📀 媒体中心*
-        # <<: *anchor_policy_groups_mediahub
-        # icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Emby.png
 
       - name: 🎶 声田音乐
         <<: *anchor_policy_groups_streammedia
@@ -339,7 +332,7 @@
 
       - name: 🎓 开源托管
         <<: *anchor_policy_groups_default
-        icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/GitHub1.png
+        icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/GitHub.png
 
       - name: 🥟 云端防护
         <<: *anchor_policy_groups_default
@@ -401,32 +394,6 @@
         filter: (?i)^(?!.*(emby)).*(0\.)
         icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Heart.png
 
-      # 国家或地区流媒体手动切换节点组
-      - name: 🇭🇰 港流媒体
-        <<: *anchor_node_groups_selector
-        filter: (?i)(?=.*(🇭🇰|香港|\b(hk|h\.k\.)\b|hong\ kong|hongkong))
-        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
-
-      - name: 🇨🇳 台流媒体
-        <<: *anchor_node_groups_selector
-        filter: (?i)(?=.*(🇨🇳|🇹🇼|台湾|\b(tw)\b|taiwan))
-        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
-
-      - name: 🇸🇬 狮流媒体
-        <<: *anchor_node_groups_selector
-        filter: (?i)(?=.*(🇸🇬|狮城|新加坡|\b(sg)\b|singapore))
-        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
-
-      - name: 🇯🇵 日流媒体
-        <<: *anchor_node_groups_selector
-        filter: (?i)(?=.*(🇯🇵|日本|\b(jp)\b|japan))
-        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
-
-      - name: 🇺🇸 美流媒体
-        <<: *anchor_node_groups_selector
-        filter: (?i)(?=.*(🇺🇸|美国|\b(us|u\.s\.)\b|united\ states|unitedstates))
-        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
-
       # 国家或地区手动切换节点组
       - name: 🇭🇰 香港手动
         <<: *anchor_node_groups_selector
@@ -462,6 +429,32 @@
         # <<: *anchor_node_groups_selector
         # filter: (?i)(?=.*(🇷🇺|俄罗斯|\b(ru)\b|russia))
         # icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Russia.png
+
+      # 国家或地区流媒体手动切换节点组
+      - name: 🇭🇰 港流媒体
+        <<: *anchor_node_groups_selector
+        filter: (?i)(?=.*(🇭🇰|香港|\b(hk|h\.k\.)\b|hong\ kong|hongkong))
+        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+
+      - name: 🇨🇳 台流媒体
+        <<: *anchor_node_groups_selector
+        filter: (?i)(?=.*(🇨🇳|🇹🇼|台湾|\b(tw)\b|taiwan))
+        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
+
+      - name: 🇸🇬 狮流媒体
+        <<: *anchor_node_groups_selector
+        filter: (?i)(?=.*(🇸🇬|狮城|新加坡|\b(sg)\b|singapore))
+        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
+
+      - name: 🇯🇵 日流媒体
+        <<: *anchor_node_groups_selector
+        filter: (?i)(?=.*(🇯🇵|日本|\b(jp)\b|japan))
+        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+
+      - name: 🇺🇸 美流媒体
+        <<: *anchor_node_groups_selector
+        filter: (?i)(?=.*(🇺🇸|美国|\b(us|u\.s\.)\b|united\ states|unitedstates))
+        icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 
       # 国家或地区自动选择节点组
       - name: 🇭🇰 香港自动
@@ -513,18 +506,15 @@
         icon: https://raw.githubusercontent.com/sunfing/iNg/main/Icons/GeneralIcons/Available.png
 
 # 规则
-  # 有需要自行开启下列注释项，注释只为照顾性能及误杀情况
-  # 去广告相关规则较多，相关 规则及提供者 已被注释
   # “geolocation-!cn”规则较多，相关 规则及提供者 已被注释
   # “A_”开头的规则个性化较强，请按照自身需求更改/删除，如果使用这些规则时发现不满足个人需求可加入频道关联群组提出需求
   rules:
     - IP-CIDR, 198.18.0.1/16, REJECT, no-resolve # 防止 fake-ip 模式下网络回环
     - RULE-SET, Lan, 🎯 全球直连
     - RULE-SET, UnBan, 🎯 全球直连
-    # - RULE-SET, BanAD, 🚫 全球拦截
-    # - RULE-SET, BanProgramAD, 🚫 全球拦截
-    - RULE-SET, A_MediaHub, 📀 媒体中心           # Emby/Jellyfin
-    # - RULE-SET, A_MediaHub*, 📀 媒体中心*         # Emby/Jellyfin
+    - RULE-SET, BanAD, 🚫 全球拦截
+    - RULE-SET, BanProgramAD, 🚫 全球拦截
+    - RULE-SET, A_MediaHub, 📀 媒体影院           # Emby/Jellyfin
     - RULE-SET, A_Reject, 🚫 全球拦截             # 自定义拦截
     - RULE-SET, A_Proxy, 🚀 默认代理              # 自定义代理
     - RULE-SET, A_Direct, 🎯 全球直连             # 自定义直连
@@ -556,7 +546,6 @@
     - RULE-SET, PrimeVideo, 🥽 亚马逊逊
     - RULE-SET, GlobalMedia, 🎬 流媒体集
     - RULE-SET, ChinaMedia, 🎯 全球直连
-    - RULE-SET, GoogleFCM, 🚀 默认代理
     - RULE-SET, Tencent, 🎯 全球直连
     - RULE-SET, TeamViewer, 🎯 全球直连
     - RULE-SET, GitHub, 🎓 开源托管
@@ -610,22 +599,18 @@
       <<: *anchor_rule_providers_classical_yaml
       url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml
       path: ./rule_providers/UnBan.yaml
-    # BanAD: # 🚫 全球拦截
-      # <<: *anchor_rule_providers_classical_yaml
-      # url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml
-      # path: ./rule_providers/BanAD.yaml
-    # BanProgramAD: # 🚫 全球拦截
-      # <<: *anchor_rule_providers_classical_yaml
-      # url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml
-      # path: ./rule_providers/BanProgramAD.yaml
-    A_MediaHub: # 📀 媒体中心
+    BanAD: # 🚫 全球拦截
+      <<: *anchor_rule_providers_classical_yaml
+      url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml
+      path: ./rule_providers/BanAD.yaml
+    BanProgramAD: # 🚫 全球拦截
+      <<: *anchor_rule_providers_classical_yaml
+      url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml
+      path: ./rule_providers/BanProgramAD.yaml
+    A_MediaHub: # 📀 媒体影院
       <<: *anchor_rule_providers_classical_yaml
       url: https://raw.githubusercontent.com/sunfing/iNg/main/Rules/MediaHub/A_MediaHub.yaml
       path: ./rule_providers/A_MediaHub.yaml
-    # A_MediaHub*: # 📀 媒体中心*
-      # <<: *anchor_rule_providers_classical_yaml
-      # url: https://raw.githubusercontent.com/sunfing/iNg/main/Rules/MediaHub/A_MediaHub*.yaml
-      # path: ./rule_providers/A_MediaHub*.yaml
     A_Reject: # 🚫 全球拦截
       <<: *anchor_rule_providers_classical_yaml
       url: https://raw.githubusercontent.com/sunfing/iNg/main/Rules/Reject/A_Reject.yaml
