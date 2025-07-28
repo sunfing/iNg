@@ -5,7 +5,7 @@ payload:
 #
   - DOMAIN-SUFFIX,access-point.cloudmessaging.edge.microsoft.com
 # 缓解电报后台状态下被重新激活后，频繁出现转圈连接中的情况（实验性）
-  - IP-CIDR,95.161.76.100/31,no-resolve
+  # - IP-CIDR,95.161.76.100/31,no-resolve
 # 屏蔽微信热更新
   - DOMAIN,dl.wechat.com
   - DOMAIN,dldir1.qq.com
